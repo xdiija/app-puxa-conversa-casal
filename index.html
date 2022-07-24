@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/esilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,500,700,900" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+                <h2>PUXA CONVERSA CASAL</h2>
+                <div class="container">
+                    <div class="box" id="divPerguntas">
+                        <p></p>
+                        <button class="botao" id="comecar">Clique aqui para começar</button>
+                    </div>
+                </div>
+                <br>
+                <button class="botao oculto" id="anterior" disabled>Anterior</button>
+                <button class="botao oculto" id="proxima">Próxima</button>
+                <br>
+                <button class="botao oculto" id="embaralhar">Embaralhar</button>
+                <br>
+                <button onClick="window.location.reload();" class="botao oculto" id="recomecar">Recomeçar</button>
+                <h3 id="mensagem" style="color: black; font-weight: 300;">Developed by Djalma Leandro</h3>
+    </form>
+    <script src="js/jquery-3.6.0.js"> </script>
+    <script src="js/game.js"></script>   
+</body>
+</html>
