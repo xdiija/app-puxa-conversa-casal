@@ -83,7 +83,7 @@ function gerarPergunta(maxPerguntas) {
     }
   }
   if(!perguntasFeitas.includes(aleatorio)) {
-    //COLOCAR COMO PERGUNTA FEITAa
+    //COLOCAR COMO PERGUNTA FEITA
     perguntasFeitas.push(aleatorio);
 
     //PREENCHER O HTML COM OS DADOS DA QUESTAO SORTEADA
